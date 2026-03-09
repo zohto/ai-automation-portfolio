@@ -1,66 +1,76 @@
-\# AI Automation Portfolio
+# AI Automation Portfolio
 
-
-
-A collection of AI-powered automation systems designed to reduce manual work, improve operational efficiency, and scale decision-making processes.
-
-
+A collection of AI-powered automation systems designed to reduce manual work, improve operational efficiency, and scale operational decision-making.
 
 These projects demonstrate workflow automation, LLM integration, and real-world operational problem solving.
 
-
-
 ---
 
+## Projects
 
-
-\## Projects
-
-
-
-\### AI Request Routing Automation
-
+### AI Request Routing Automation
 An AI-powered workflow that automatically classifies and routes internal business requests.
 
+**Capabilities**
 
+- LLM request classification
+- Priority and department extraction
+- AI confidence validation
+- Human review fallback
+- Decision logging for operational visibility
 
-\*\*Key capabilities\*\*
+**Stack**
 
+n8n • OpenAI • Google Sheets
 
-
-• LLM request classification  
-
-• Priority and department extraction  
-
-• Confidence validation before routing  
-
-• Human review fallback for uncertain cases  
-
-• Decision logging for operational visibility  
-
-
-
-\*\*Tech Stack\*\*
-
-
-
-\- n8n
-
-\- OpenAI
-
-\- Google Sheets
-
-
-
-📁 Project Files  
-
+Project files:  
 `request-routing-automation/`
-
-
 
 ---
 
+### Weather-Based Automation
+An automation system that uses weather conditions to trigger operational responses such as staffing adjustments and sales forecasting.
 
+**Capabilities**
 
-More projects coming soon.
+- Weather data ingestion
+- Automated decision triggers
+- Conditional workflow automation
+- Operational forecasting support
 
+Project files:  
+`weather-automation/`
+
+---
+
+### AI-Powered Customer Support Workflow
+A workflow that analyzes incoming support requests and routes them intelligently using AI classification.
+
+**Capabilities**
+
+- AI request understanding
+- Automated routing logic
+- Reduced manual triage
+- Faster support response times
+
+Project files:  
+`ai-customer-support-workflow/`
+
+---
+
+### Automated Feedback Analysis Workflow
+An AI-driven workflow that processes customer feedback and extracts actionable insights.
+
+**Capabilities**
+
+- Sentiment analysis
+- Topic extraction
+- Feedback categorization
+- Operational insight generation
+
+Project files:  
+`automated-feedback-analysis/`
+
+---
+
+More projects will be added as new automation systems are developed.
