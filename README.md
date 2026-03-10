@@ -7,7 +7,7 @@ These projects demonstrate workflow automation, LLM integration, and real-world 
 ---
 ## Resume
 
-[Download Resume](resume/Brandon Robinson - AI Automation Engineer.pdf)
+[Download Resume](resume/brandon-robinson-ai-automation-engineer.pdf)
 ---
 
 ## Projects
