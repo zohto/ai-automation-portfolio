@@ -28,7 +28,7 @@ An AI-powered workflow that automatically classifies and routes internal busines
 n8n • OpenAI • Google Sheets
 
 Project files:  
-`request-routing-automation/`
+[request-routing-automation](https://github.com/zohto/ai-automation-portfolio/tree/main/request-routing-automation)
 
 ---
 
@@ -43,7 +43,7 @@ An automation system that uses weather conditions to trigger operational respons
 - Operational forecasting support
 
 Project files:  
-`weather-automation/`
+[weather-automation](https://github.com/zohto/ai-automation-portfolio/tree/main/weather-automation)
 
 ---
 
@@ -58,7 +58,7 @@ A workflow that analyzes incoming support requests and routes them intelligently
 - Faster support response times
 
 Project files:  
-`ai-customer-support-workflow/`
+[ai-customer-support-workflow](https://github.com/zohto/ai-automation-portfolio/tree/main/ai-customer-support-workflow)
 
 ---
 
@@ -73,7 +73,7 @@ An AI-driven workflow that processes customer feedback and extracts actionable i
 - Operational insight generation
 
 Project files:  
-`automated-feedback-analysis/`
+[automated-feedback-analysis](https://github.com/zohto/ai-automation-portfolio/tree/main/automated-feedback-analysis)
 
 ---
 
