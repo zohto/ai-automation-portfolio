@@ -5,6 +5,10 @@ A collection of AI-powered automation systems designed to reduce manual work, im
 These projects demonstrate workflow automation, LLM integration, and real-world operational problem solving.
 
 ---
+## Resume
+
+[Download Resume](resume/Brandon Robinson - AI Automation Engineer.pdf)
+---
 
 ## Projects
 
