@@ -8,6 +8,28 @@ These projects demonstrate workflow automation, LLM integration, and real-world 
 ## Resume
 
 [Download Resume](resume/brandon-robinson-ai-automation-engineer.pdf)
+
+---
+
+## Case Study
+
+### Sales Workflow Automation (Distributor Case Study)
+
+A workflow analysis and automation architecture proposal for a small regional distributor operating with manual lead intake and phone-based scheduling.
+
+This case study demonstrates how lightweight AI-assisted automation can modernize legacy sales processes using structured lead capture, workflow orchestration, and intelligent lead routing.
+
+**Highlights**
+
+- Lead intake automation
+- AI-assisted lead classification
+- Automated demo scheduling
+- CRM integration for pipeline visibility
+- Follow-up automation
+
+Project files:  
+[Sales Workflow Automation Case Study](case-studies/sales-workflow-automation.md)
+
 ---
 
 ## Projects
