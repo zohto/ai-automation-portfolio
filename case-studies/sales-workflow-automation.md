@@ -46,22 +46,6 @@ flowchart TD
     F --> G
 ```
 
-Typical flow:
-
-```text
-Customer sees product (event, referral, advertisement)
-        ↓
-Customer calls distributor
-        ↓
-Staff manually records contact information
-        ↓
-Staff schedules in-home demo by phone
-        ↓
-Sales representative performs demo
-        ↓
-Follow-up handled manually
-```
-
 Operational characteristics:
 
 - phone-driven intake
@@ -151,6 +135,8 @@ Web form or QR code for capturing event leads.
 Workflow engine (n8n or Make) routes and processes leads.
 
 #### AI Classification
+The AI model evaluates the lead’s message or intake description to determine the appropriate category and routing path.
+
 Model categorizes leads into:
 
 - new sales inquiry
@@ -204,6 +190,16 @@ Operational improvements expected from this automation system:
 
 For small distributors, faster lead response and structured follow-up can significantly improve demo conversion rates, which directly impacts revenue generation.
 
+### Workflow Transformation
+
+| Area | Current State | Automated Future State |
+|-----|-----|-----|
+| Lead Intake | Phone notes or informal recording | Structured digital intake form |
+| Lead Tracking | No centralized system | CRM lead pipeline |
+| Scheduling | Manual coordination | Calendar-based automated booking |
+| Follow-up | Manual calls or reminders | Automated email/SMS reminders |
+| Reporting | Limited visibility | Real-time pipeline tracking |
+
 ---
 
 ## 6. Estimated ROI Potential
@@ -220,6 +216,10 @@ Automation could reduce administrative coordination by an estimated:
 • 50–100 minutes saved per 10 leads
 
 Over time, this allows sales staff to focus more on demonstrations and customer engagement rather than coordination.
+
+Example scenario:
+
+If the distributor processes approximately 20 leads per week, reducing coordination time by 5 minutes per lead could save roughly 100 minutes of administrative effort weekly, allowing sales staff to focus more time on demonstrations and customer engagement.
 
 ### Lead Capture Improvements
 
@@ -301,7 +301,7 @@ The proposed system must remain lightweight due to the nature of the business:
 
 • Small team with limited technical infrastructure  
 • Sales performed through in-home demonstrations  
-• Distributor relationship with manufacturer systems  
+• Dependence on manufacturer distributor systems
 • Minimal existing digital tooling
 
 For this reason, the proposed automation focuses on low-friction tools such as workflow automation platforms, lightweight CRM solutions, and AI-assisted routing rather than complex enterprise systems.
