@@ -88,7 +88,7 @@ The proposed system introduces a lightweight automation layer.
 ```mermaid
 flowchart TD
     A[Customer Inquiry] --> B[Lead Intake Form]
-    B --> C[Automation Layer<br/>n8n / Make]
+    B --> C[Automation Layer<br/>(n8n / Make)]
     C --> D[AI Lead Classification]
 
     D --> E[Demo Request]
@@ -130,7 +130,7 @@ Automated Follow-up
 ### System Components
 
 #### Lead Intake
-Web form or QR code for capturing event leads.
+Web form or QR code for capturing event leads. Phone inquiries can also be captured through a simple staff intake portal that feeds the same workflow, ensuring phone leads enter the structured system.
 
 #### Automation Layer
 Workflow engine (n8n or Make) routes and processes leads.
@@ -158,7 +158,7 @@ Email or SMS reminders for demos and post-demo outreach.
 
 ## 4. AI Classification Logic
 
-AI assists with lead triage.
+AI assists with triage of unstructured inputs such as customer messages, email inquiries, or free-text descriptions submitted through the intake form.
 
 Example prompt:
 
@@ -191,6 +191,8 @@ Operational improvements expected from this automation system:
 
 For small distributors, faster lead response and structured follow-up can significantly improve demo conversion rates, which directly impacts revenue generation.
 
+Structured outcome tracking also allows the business to analyze demo conversion rates over time, enabling better sales forecasting and operational planning.
+
 ### Workflow Transformation
 
 | Area | Current State | Automated Future State |
@@ -220,7 +222,7 @@ Over time, this allows sales staff to focus more on demonstrations and customer 
 
 Example scenario:
 
-If the distributor processes approximately 20 leads per week, reducing coordination time by 5 minutes per lead could save roughly 100 minutes of administrative effort weekly, allowing sales staff to focus more time on demonstrations and customer engagement.
+If the distributor processes approximately 20 leads per week, reducing coordination time by approximately 5–10 minutes per lead could save roughly 100 minutes of administrative effort weekly, allowing sales staff to focus more time on demonstrations and customer engagement.
 
 ### Lead Capture Improvements
 
@@ -285,6 +287,7 @@ Possible implementation stack:
 ### Phase 4: Follow-up Automation
 - demo follow-ups
 - service reminders
+- post-demo outcome logging (sale, follow-up required, no sale)
 
 ---
 
