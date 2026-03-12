@@ -296,6 +296,8 @@ Modern automation tools allow these businesses to dramatically improve operation
 
 This case study demonstrates how lightweight AI-assisted workflow automation can modernize legacy sales processes while remaining accessible to small regional distributors.
 
+---
+
 ## 10. Operational Constraints
 
 The proposed system must remain lightweight due to the nature of the business:
