@@ -10,14 +10,24 @@ The design focuses on lightweight automation suitable for small businesses using
 
 ## 1. Current Workflow (Observed)
 
-The current workflow appears to rely on manual coordination and phone-based communication.
+Lead generation currently occurs through two primary channels:
+
+• **Inbound leads** from events, referrals, and product exposure  
+• **Outbound prospecting** where staff identify high-income neighborhoods and perform cold outreach calls
+
+Both lead sources ultimately converge into the same manual intake and scheduling process.
 
 ### Current Workflow Diagram
 
 ```mermaid
 flowchart TD
+
     A[Customer sees product<br/>Event / Referral / Advertisement]
     B[Customer calls distributor]
+
+    O[Staff searches high-income neighborhoods]
+    P[Cold call outreach]
+
     C[Staff answers phone]
     D[Customer information written manually]
     E[Demo scheduled by phone]
@@ -26,6 +36,10 @@ flowchart TD
 
     A --> B
     B --> C
+
+    O --> P
+    P --> C
+
     C --> D
     D --> E
     E --> F
@@ -78,7 +92,7 @@ Owners lack visibility into the sales pipeline.
 
 ---
 
-## 3. Proposed Automation Architecture
+## 3. Proposed Future-State Architecture
 
 The proposed system introduces a lightweight automation layer.
 
@@ -186,11 +200,23 @@ Operational improvements expected from this automation system:
 - Sales follow-up: Manual → Automated sequences
 - Owner reporting: Minimal → Real-time dashboards
 
-For small distributors with lean staff, this type of automation significantly reduces administrative overhead while improving sales conversion potential.
+For small distributors, faster lead response and structured follow-up can significantly improve demo conversion rates, which directly impacts revenue generation.
 
 ---
 
-## 6. Implementation Phases
+## 6. Technologies Considered
+
+Possible implementation stack:
+
+• Workflow orchestration: n8n or Make  
+• AI classification: OpenAI / LLM API  
+• CRM / lead storage: Airtable, HubSpot, or Google Sheets  
+• Scheduling: Google Calendar integration  
+• Notifications: Email or SMS automation
+
+---
+
+## 7. Implementation Phases
 
 ### Phase 1: Lead Capture System
 - event QR code
@@ -210,10 +236,21 @@ For small distributors with lean staff, this type of automation significantly re
 
 ---
 
-## 7. Why This Matters
+## 8. Why This Matters
 
 Many small businesses operate on decades-old workflows that rely heavily on phone coordination and manual tracking.
 
 Modern automation tools allow these businesses to dramatically improve operational efficiency without requiring complex infrastructure.
 
 This case study demonstrates how lightweight AI-assisted workflow automation can modernize legacy sales processes while remaining accessible to small regional distributors.
+
+## 9. Operational Constraints
+
+The proposed system must remain lightweight due to the nature of the business:
+
+• Small team with limited technical infrastructure  
+• Sales performed through in-home demonstrations  
+• Distributor relationship with manufacturer systems  
+• Minimal existing digital tooling
+
+For this reason, the proposed automation focuses on low-friction tools such as workflow automation platforms, lightweight CRM solutions, and AI-assisted routing rather than complex enterprise systems.
