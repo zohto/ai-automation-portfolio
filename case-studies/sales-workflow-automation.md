@@ -88,7 +88,7 @@ The proposed system introduces a lightweight automation layer.
 ```mermaid
 flowchart TD
     A[Customer Inquiry] --> B[Lead Intake Form]
-    B --> C[Automation Layer<br/>(n8n / Make)]
+    B --> C[Automation Layer<br/>n8n / Make]
     C --> D[AI Lead Classification]
 
     D --> E[Demo Request]
