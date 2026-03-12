@@ -62,6 +62,32 @@ Owners lack visibility into the sales pipeline.
 
 The proposed system introduces a lightweight automation layer.
 
+### Visual Architecture Diagram
+
+```mermaid
+flowchart TD
+    A[Customer Inquiry] --> B[Lead Intake Form]
+    B --> C[Automation Layer<br/>n8n / Make]
+    C --> D[AI Lead Classification]
+
+    D --> E[Demo Request]
+    D --> F[Product Question]
+    D --> G[Service / Repair]
+    D --> H[Event Lead]
+
+    E --> I[CRM / Lead Database]
+    F --> I
+    G --> I
+    H --> I
+
+    I --> J[Demo Scheduling Automation]
+    I --> K[Sales Follow-up System]
+    I --> L[Reporting / Pipeline Visibility]
+
+    J --> M[Calendar Booking]
+    K --> N[Email / SMS Reminders]
+```
+
 ### Workflow Overview
 
 ```text
