@@ -76,6 +76,7 @@ Owners lack visibility into the sales pipeline.
 
 ### Lost Outbound Opportunities
 Cold-call prospects without structured tracking may never receive follow-up, reducing potential demo conversions.
+
 ---
 
 ## 3. Proposed Future-State Architecture
