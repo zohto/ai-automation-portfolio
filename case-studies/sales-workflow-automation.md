@@ -90,6 +90,8 @@ There is no structured lead data to support prioritization or follow-up.
 ### Limited Reporting
 Owners lack visibility into the sales pipeline.
 
+### Lost Outbound Opportunities
+Cold-call prospects without structured tracking may never receive follow-up, reducing potential demo conversions.
 ---
 
 ## 3. Proposed Future-State Architecture
@@ -204,7 +206,56 @@ For small distributors, faster lead response and structured follow-up can signif
 
 ---
 
-## 6. Technologies Considered
+## 6. Estimated ROI Potential
+
+While exact financial outcomes depend on the distributor’s lead volume and demo conversion rates, several operational improvements can be estimated.
+
+### Administrative Time Savings
+
+Manual intake, scheduling coordination, and follow-up tracking currently require staff time for every lead interaction.
+
+Automation could reduce administrative coordination by an estimated:
+
+• 5–10 minutes per lead  
+• 50–100 minutes saved per 10 leads
+
+Over time, this allows sales staff to focus more on demonstrations and customer engagement rather than coordination.
+
+### Lead Capture Improvements
+
+Manual workflows risk missed or forgotten leads, particularly during busy event periods.
+
+Structured intake and automated follow-up systems can improve:
+
+• lead tracking consistency  
+• follow-up reliability  
+• demo scheduling completion rates
+
+Even a modest improvement in lead-to-demo conversion can significantly increase sales revenue for businesses that rely on in-home product demonstrations.
+
+### Pipeline Visibility
+
+Introducing structured lead data allows the owner to track:
+
+• number of leads generated  
+• demo scheduling rates  
+• follow-up completion  
+• conversion outcomes
+
+This visibility enables better operational decision-making and sales planning.
+
+### Overall Impact
+
+For small sales organizations with lean staff, introducing lightweight automation can:
+
+• reduce administrative workload  
+• improve lead response speed  
+• increase demo conversion opportunities  
+• provide operational visibility that was previously unavailable
+
+---
+
+## 7. Technologies Considered
 
 Possible implementation stack:
 
@@ -216,7 +267,7 @@ Possible implementation stack:
 
 ---
 
-## 7. Implementation Phases
+## 8. Implementation Phases
 
 ### Phase 1: Lead Capture System
 - event QR code
@@ -236,7 +287,7 @@ Possible implementation stack:
 
 ---
 
-## 8. Why This Matters
+## 9. Strategic Importance
 
 Many small businesses operate on decades-old workflows that rely heavily on phone coordination and manual tracking.
 
@@ -244,7 +295,7 @@ Modern automation tools allow these businesses to dramatically improve operation
 
 This case study demonstrates how lightweight AI-assisted workflow automation can modernize legacy sales processes while remaining accessible to small regional distributors.
 
-## 9. Operational Constraints
+## 10. Operational Constraints
 
 The proposed system must remain lightweight due to the nature of the business:
 
@@ -254,3 +305,5 @@ The proposed system must remain lightweight due to the nature of the business:
 • Minimal existing digital tooling
 
 For this reason, the proposed automation focuses on low-friction tools such as workflow automation platforms, lightweight CRM solutions, and AI-assisted routing rather than complex enterprise systems.
+
+This case study illustrates how modern AI-assisted automation can introduce structured operational systems into small businesses that traditionally rely on manual coordination and informal processes.
