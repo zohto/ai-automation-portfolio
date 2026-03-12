@@ -12,6 +12,26 @@ The design focuses on lightweight automation suitable for small businesses using
 
 The current workflow appears to rely on manual coordination and phone-based communication.
 
+### Current Workflow Diagram
+
+```mermaid
+flowchart TD
+    A[Customer sees product<br/>Event / Referral / Advertisement]
+    B[Customer calls distributor]
+    C[Staff answers phone]
+    D[Customer information written manually]
+    E[Demo scheduled by phone]
+    F[Sales rep performs in-home demo]
+    G[Manual follow-up]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+```
+
 Typical flow:
 
 ```text
