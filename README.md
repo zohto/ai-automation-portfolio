@@ -1,102 +1,98 @@
-# AI Automation Portfolio
+# Brandon Robinson — AI Systems & Automation
 
-A collection of AI-powered automation systems designed to reduce manual work, improve operational efficiency, and scale operational decision-making.
+**Founder, [BREALLE](https://brealle.com) · Lead Loss Diagnostic & Intake Automation**
 
-These projects demonstrate workflow automation, LLM integration, and real-world operational problem solving.
+I have 15 years of operations experience and build automation systems for the places where revenue quietly leaks: broken intake, slow follow-up, poor routing, and no tracking visibility.
+
+BREALLE helps local service businesses and applicant-heavy operations capture leads, route them correctly, follow up automatically, and see what is happening across the pipeline.
+
+→ **[brealle.com](https://brealle.com)**  
+Lead Loss Diagnostic · Integration Sprint · Maintenance Retainer
 
 ---
-## Resume
 
-[Download Resume](resume/brandon-robinson-ai-automation-engineer.pdf)
+## Production Systems
+
+### Applicant Pipeline — Live Applicant Intake & Tracking System
+*Status: Production · Running 24/7*
+
+End-to-end applicant intake automation built for a live client. Handles inbound applicant data, enrichment, AI-assisted reply classification, structured pipeline tracking, reply routing, and failure alerting. Built and operated under a formal Tier 3 workflow standard (external communications, low reversibility, WGS governance applied).
+
+**Stack:** n8n · Google Sheets · OpenAI · Webhook routing · Postgres · Error logging · Hetzner VPS
+
+---
+
+### BREALLE Lead Generator — Automated Lead Sourcing Pipeline
+*Status: Production · Validated & Operational*
+
+Multi-niche lead generation system targeting email-native local service businesses. Handles sourcing via web scraping, contact enrichment, deduplication, gap-aware lead cap logic, and structured pipeline output into Google Sheets. Currently configured for property management, cleaning services, water/fire/mold restoration, and adjacent local-service verticals.
+
+**Stack:** n8n · Apify · Google Sheets · Hunter.io · Tier 2 governance
+
+---
+
+## Project Work
+
+### AI Request Routing Automation
+An AI-powered workflow that classifies and routes internal business requests automatically — replacing manual triage with structured, auditable routing logic.
+
+- LLM classification with confidence validation
+- Priority and department extraction
+- Human review fallback for low-confidence cases
+- Decision logging for operational visibility
+
+**Stack:** n8n · OpenAI · Google Sheets
+[→ View files](request-routing-automation/)
+
+---
+
+### AI-Powered Customer Support Workflow
+Analyzes incoming support requests and routes them intelligently using AI classification.
+
+- Automated triage and routing
+- Reduced manual handling
+- Faster response times
+
+[→ View files](ai-customer-support-workflow/)
+
+---
+
+### Automated Feedback Analysis
+Processes customer feedback and extracts structured operational insights automatically.
+
+- Sentiment analysis
+- Topic extraction and categorization
+- Structured insight output for operations teams
+
+[→ View files](automated-feedback-analysis/)
+
+---
+
+### Weather-Based Operational Automation
+Uses weather conditions to trigger operational responses — staffing adjustments, scheduling, demand forecasting.
+
+- Condition-based trigger logic using live weather API data
+- Outputs structured operational recommendations for scheduling and staffing
+
+[→ View files](weather-automation/)
 
 ---
 
 ## Case Study
 
-### Sales Workflow Automation (Distributor Case Study)
+### Sales Workflow Automation — Regional Distributor
+Diagnostic analysis and automation architecture for a small regional distributor operating with manual lead intake and phone-based scheduling. Documents the gap analysis, system design, and automation architecture for structured lead capture, AI-assisted classification, CRM integration, and follow-up automation.
 
-A workflow analysis and automation architecture proposal for a small regional distributor operating with manual lead intake and phone-based scheduling.
-
-This case study demonstrates how lightweight AI-assisted automation can modernize legacy sales processes using structured lead capture, workflow orchestration, and intelligent lead routing.
-
-**Highlights**
-
-- Lead intake automation
-- AI-assisted lead classification
-- Automated demo scheduling
-- CRM integration for pipeline visibility
-- Follow-up automation
-
-Project files:  
-[Sales Workflow Automation Case Study](case-studies/sales-workflow-automation.md)
+[→ Read case study](case-studies/sales-workflow-automation.md)
 
 ---
 
-## Projects
+## Resume
 
-### AI Request Routing Automation
-An AI-powered workflow that automatically classifies and routes internal business requests.
-
-**Capabilities**
-
-- LLM request classification
-- Priority and department extraction
-- AI confidence validation
-- Human review fallback
-- Decision logging for operational visibility
-
-**Stack**
-
-n8n • OpenAI • Google Sheets
-
-Project files:  
-[request-routing-automation](https://github.com/zohto/ai-automation-portfolio/tree/main/request-routing-automation)
+[→ Download Resume](resume/brandon-robinson-ai-automation-engineer.pdf)
 
 ---
 
-### Weather-Based Automation
-An automation system that uses weather conditions to trigger operational responses such as staffing adjustments and sales forecasting.
-
-**Capabilities**
-
-- Weather data ingestion
-- Automated decision triggers
-- Conditional workflow automation
-- Operational forecasting support
-
-Project files:  
-[weather-automation](https://github.com/zohto/ai-automation-portfolio/tree/main/weather-automation)
-
----
-
-### AI-Powered Customer Support Workflow
-A workflow that analyzes incoming support requests and routes them intelligently using AI classification.
-
-**Capabilities**
-
-- AI request understanding
-- Automated routing logic
-- Reduced manual triage
-- Faster support response times
-
-Project files:  
-[ai-customer-support-workflow](https://github.com/zohto/ai-automation-portfolio/tree/main/ai-customer-support-workflow)
-
----
-
-### Automated Feedback Analysis Workflow
-An AI-driven workflow that processes customer feedback and extracts actionable insights.
-
-**Capabilities**
-
-- Sentiment analysis
-- Topic extraction
-- Feedback categorization
-- Operational insight generation
-
-Project files:  
-[automated-feedback-analysis](https://github.com/zohto/ai-automation-portfolio/tree/main/automated-feedback-analysis)
-
----
-
-More projects will be added as new automation systems are developed.
+*Certified: AI & ML — TripleTen*
+*Available in English and Spanish*
+*Contact: brandon@brealle.com*
