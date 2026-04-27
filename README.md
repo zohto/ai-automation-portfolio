@@ -80,6 +80,13 @@ Uses weather conditions to trigger operational responses — staffing adjustment
 
 ## Case Study
 
+### Applicant Intake & Re-Engagement at Production Scale — Regional Home-Appliance Distributor
+End-to-end automation system delivered for a regional home-appliance distributor managing high-volume applicant flow for field sales and technician roles. Three-chain n8n pipeline (intake/qualification, outreach, reply handling) with daily-cap enforcement, halt-on-error circuit breakers, dedup audit logging, and Tier 3 governance — running on a hardened production VPS.
+
+[→ Read case study](case-studies/applicant-intake-automation-case-study.md)
+
+---
+
 ### Sales Workflow Automation — Regional Distributor
 Diagnostic analysis and automation architecture for a small regional distributor operating with manual lead intake and phone-based scheduling. Documents the gap analysis, system design, and automation architecture for structured lead capture, AI-assisted classification, CRM integration, and follow-up automation.
 
