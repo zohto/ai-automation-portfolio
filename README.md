@@ -87,6 +87,13 @@ Diagnostic analysis and automation architecture for a small regional distributor
 
 ---
 
+### Revenue Recovery from Untapped Applicants — Regional Home Services Company
+One-page diagnostic of a home services company sitting on roughly 20,000 unprocessed Indeed applicants. Documents the conversion failure between applicant volume and recruiter throughput, and outlines the structured intake, qualification, and routing system that closes the gap — turning a hiring backlog into recoverable revenue capacity.
+
+[→ Read case study](case-studies/home_service_business_case_study_1_page.md)
+
+---
+
 ## Resume
 
 [→ Download Resume](resume/brandon-robinson-ai-automation-engineer.pdf)
