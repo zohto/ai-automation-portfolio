@@ -10,16 +10,16 @@
 
 ## **The Situation**
 
-A regional home-appliance distributor manages high-volume applicant flow for field sales and technician roles across their territory.
+A regional home-appliance distributor manages high-volume applicant flow for Entry Level Sales Representative and Appointment Setter roles across its territory.
 
-Regional Home-Appliance Distributor operates with high inbound applicant volume — the kind of operation where every unprocessed applicant is a missed hire and a future revenue gap.
+The business had accumulated a large applicant backlog — the kind of operational pileup where every unprocessed applicant could mean a missed hire, fewer appointments set, fewer house calls, and delayed revenue opportunity.
 
 Before the system was in place, applicant intake, qualification, and re-engagement followed a manual cycle:
-- Data sat in spreadsheets waiting for someone to look at it
-- Follow-up depended on who had time, not on a system
+- Data sat in spreadsheets waiting for review
+- Follow-up depended on manual text messages and staff availability
 - There was no consolidated view of who had been contacted, who had replied, or who had quietly dropped out
 - Duplicates were handled by eye, not by logic
-- Reply tracking required manually scanning Gmail threads
+- Reply tracking required manually checking communication history
 
 **Result:** the throughput of the hiring pipeline was bound to the manual capacity of whoever happened to be working the queue that day.
 
@@ -29,7 +29,7 @@ Before the system was in place, applicant intake, qualification, and re-engageme
 
 This wasn't a hiring problem. It was a **conversion failure between applicant intake and active engagement.**
 
-Each unprocessed applicant represented a decayed opportunity. Every day of delay made a re-engagement email less effective. A missed reply meant a candidate quietly fell out of the funnel. The business couldn't process the leads it was already generating — let alone scale to handle more.
+Each unprocessed applicant represented a decayed opportunity. Every day of delay made a re-engagement message less effective. A missed reply meant a candidate quietly fell out of the funnel. The business couldn't process the leads it was already generating — let alone scale to handle more.
 
 ---
 
@@ -98,10 +98,10 @@ Tier 3 controls applied:
 ## **What This Replaces**
 
 - ✗ Manual checking of the applicant sheet each day
-- ✗ Memory-based decisions about who to email next
+- ✗ Memory-based decisions about who to contact next
+- ✗ Manual text-message follow-up without centralized state tracking
 - ✗ Untracked duplicate handling
-- ✗ "Whoever has time" follow-up cadence
-- ✗ Manually scanning Gmail to figure out who replied
+- ✗ Scattered visibility into who replied, who needed review, and who needed next-step action
 
 ## **What's Now Possible**
 
@@ -123,11 +123,11 @@ Tier 3 controls applied:
 
 ## **Positioning Statement**
 
-> Regional Home-Appliance Distributor's hiring throughput wasn't capped by candidates —
+> Regional Home-Appliance Distributor's hiring throughput wasn't capped by applicants.
 > 
-> it was capped by how fast the team could move them through the funnel.
+> It was capped by how fast the team could move Entry Level Sales Representative and Appointment Setter candidates through the funnel.
 > 
-> Replace the manual layer with a governed automation system, and inbound capture stops being a bottleneck and becomes a baseline.
+> Replace the manual layer with a governed automation system, and applicant intake stops being a backlog problem and becomes a managed recruiting pipeline.
 
 ---
 
