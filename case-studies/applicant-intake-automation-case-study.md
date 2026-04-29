@@ -10,26 +10,19 @@
 
 ## **The Situation**
 
-A regional home-appliance distributor manages high-volume applicant flow for Entry Level Sales Representative and Appointment Setter roles across its territory.
+A regional home-appliance distributor was losing hiring opportunities every day — not because applicants weren't applying, but because the team couldn't keep up with them.
 
-The business had accumulated a large applicant backlog — the kind of operational pileup where every unprocessed applicant could mean a missed hire, fewer appointments set, fewer house calls, and delayed revenue opportunity.
+Applicant data sat unreviewed in spreadsheets. Follow-up depended on whoever had time to send a text. Nobody had a clear picture of who had been contacted, who had replied, or who had already moved on. The pipeline wasn't moving because the manual layer between "applicant applies" and "applicant gets contacted" was the bottleneck.
 
-Before the system was in place, applicant intake, qualification, and re-engagement followed a manual cycle:
-- Data sat in spreadsheets waiting for review
-- Follow-up depended on manual text messages and staff availability
-- There was no consolidated view of who had been contacted, who had replied, or who had quietly dropped out
-- Duplicates were handled by eye, not by logic
-- Reply tracking required manually checking communication history
-
-**Result:** the throughput of the hiring pipeline was bound to the manual capacity of whoever happened to be working the queue that day.
+Every day of delay was a candidate lost to a competitor or to silence.
 
 ---
 
 ## **The Real Problem**
 
-This wasn't a hiring problem. It was a **conversion failure between applicant intake and active engagement.**
+This wasn't a hiring volume problem. The applicants were there.
 
-Each unprocessed applicant represented a decayed opportunity. Every day of delay made a re-engagement message less effective. A missed reply meant a candidate quietly fell out of the funnel. The business couldn't process the leads it was already generating — let alone scale to handle more.
+The business was losing candidates between intake and first contact — a gap that no amount of job posting spend could fix. The pipeline needed to move on its own, without depending on manual bandwidth that was already maxed out.
 
 ---
 
@@ -116,18 +109,16 @@ Tier 3 controls applied:
 ## **Key Insight**
 
 > The constraint was never applicant volume.
-> 
+>
 > It was the manual layer between intake and engagement.
 
 ---
 
 ## **Positioning Statement**
 
-> Regional Home-Appliance Distributor's hiring throughput wasn't capped by applicants.
-> 
-> It was capped by how fast the team could move Entry Level Sales Representative and Appointment Setter candidates through the funnel.
-> 
-> Replace the manual layer with a governed automation system, and applicant intake stops being a backlog problem and becomes a managed recruiting pipeline.
+> Most hiring pipelines don't fail because of bad candidates. They fail because the gap between application and first contact is too slow, too manual, and too dependent on someone remembering to follow up.
+>
+> BREALLE builds the system that closes that gap — so the pipeline runs whether or not someone is working the queue that day.
 
 ---
 
@@ -139,7 +130,7 @@ BREALLE designs and operates production automation systems for businesses where 
 - **Integration Sprint** — builds the system that closes the gap
 - **Maintenance Retainer** — keeps it running
 
-Ready to find where your pipeline is leaking? Start with a Lead Loss Diagnostic.
+Ready to find where your pipeline is leaking? Start with a **Lead Loss Diagnostic**.
 
 [brealle.com](https://brealle.com) · [brandon@brealle.com](mailto:brandon@brealle.com)
 
