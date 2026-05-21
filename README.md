@@ -16,18 +16,20 @@ Lead Loss Diagnostic · Integration Sprint · Maintenance Retainer
 ### Applicant Pipeline — Live Applicant Intake & Tracking System
 *Status: Production · Running 24/7*
 
-End-to-end applicant intake automation built for a live client. Handles inbound applicant data, enrichment, AI-assisted reply classification, structured pipeline tracking, reply routing, and failure alerting. Built and operated under a formal Tier 3 workflow standard (external communications, low reversibility, WGS governance applied).
+End-to-end applicant intake automation built for a live client. Handles inbound applicant data, deduplication and normalization, deterministic keyword-based reply classification, structured pipeline tracking, reply routing, and failure alerting. Built and operated under a formal Tier 3 workflow standard (external communications, low reversibility, WGS governance applied).
 
-**Stack:** n8n · Google Sheets · OpenAI · Webhook routing · Postgres · Error logging · Hetzner VPS
+**Stack:** n8n · Google Sheets · Gmail · Webhook triggers · Postgres · Caddy · Hetzner VPS
 
 ---
 
-### BREALLE Lead Generator — Automated Lead Sourcing Pipeline
-*Status: Production · Validated & Operational*
+### BREALLE Lead Generator — Outbound Lead Sourcing & Enrichment Pipeline
+*Status: Production · Validated & Operational · Tier 2 Governance*
 
-Multi-niche lead generation system targeting email-native local service businesses. Handles sourcing via web scraping, contact enrichment, deduplication, gap-aware lead cap logic, and structured pipeline output into Google Sheets. Currently configured for property management, cleaning services, water/fire/mold restoration, and adjacent local-service verticals.
+Outbound sourcing pipeline targeting email-native local service businesses across property management, cleaning, water/fire/mold restoration, HVAC, and light-industrial staffing in MA/CT/RI. Apollo-driven discovery and enrichment with Hunter.io fallback for contact-form-heavy verticals; NeverBounce verification before any lead reaches the outreach pool. Schema-locked Google Sheets handoff with credit-budget management against a 2,500-credit monthly Apollo allowance. Feeds the BREALLE outreach engine, where every draft is reviewed and approved by the founder before send.
 
-**Stack:** n8n · Apify · Google Sheets · Hunter.io · Tier 2 governance
+**Stack:** n8n · Apollo · Hunter.io · NeverBounce · Google Sheets · Postgres · Caddy · Tier 2 governance
+
+[→ Read case study](case-studies/brealle-lead-generator.md)
 
 ---
 
@@ -84,6 +86,13 @@ Uses weather conditions to trigger operational responses — staffing adjustment
 End-to-end automation system delivered for a regional home-appliance distributor managing high-volume applicant flow for field sales and technician roles. Three-chain n8n pipeline (intake/qualification, outreach, reply handling) with daily-cap enforcement, halt-on-error circuit breakers, dedup audit logging, and Tier 3 governance — running on a hardened production VPS.
 
 [→ Read case study](case-studies/applicant-intake-automation-case-study.md)
+
+---
+
+### Outbound Lead Sourcing & Enrichment at Production Scale — BREALLE Lead Generator
+Five-workflow n8n sourcing pipeline (Apollo discovery + Apollo enrichment + Hunter.io fallback + NeverBounce verification + shared event/error logging) totaling 87 nodes. Cost-aware design managed against a 2,500-credit monthly Apollo allowance, with pre-outreach deliverability verification and a schema-locked Google Sheets handoff to the outreach engine. Tier 2 governance with founder-approval gate on every outbound draft.
+
+[→ Read case study](case-studies/brealle-lead-generator.md)
 
 ---
 
