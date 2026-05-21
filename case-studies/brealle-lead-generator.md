@@ -42,7 +42,7 @@ The pipeline needed to be **cost-aware, deliverability-aware, and audit-traceabl
 **Tier:** Tier 2 governance (operational/revenue-support, BREALLE WGS v1)
 **Scale:** Five coordinated workflows totaling 87 nodes
 
-The function — outbound lead sourcing and enrichment — runs continuously today. The discovery layer evolved on 2026-04-30 from Apify-based scraping to Apollo-based discovery + enrichment as the canonical sourcing layer; Apollo Discovery v3 and Apollo Enrichment v2 now drive the pipeline. The architecture described below reflects current production state.
+The function — outbound lead sourcing and enrichment — runs continuously today. The discovery layer evolved on 2026-04-30 from Apify-based scraping to Apollo-based discovery + enrichment, reducing credit-budget pressure and improving enrichment fidelity. Apollo Discovery v3 and Apollo Enrichment v2 now drive the pipeline as the canonical sourcing layer. The architecture described below reflects current production state.
 
 ---
 
