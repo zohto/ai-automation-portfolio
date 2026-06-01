@@ -126,11 +126,11 @@ Tier 3 controls applied:
 
 BREALLE designs and operates production automation systems for businesses where revenue depends on inbound capture, intake, follow-up, and tracking.
 
-- **Lead Loss Diagnostic** — identifies where opportunities are leaking
-- **Integration Sprint** — builds the system that closes the gap
-- **Maintenance Retainer** — keeps it running
+- **Lead Loss Snapshot** — identifies where opportunities are leaking
+- **Lead Recovery Setup** — builds the system that closes the gap
+- **Managed Lead Recovery** — keeps it running
 
-Ready to find where your pipeline is leaking? Start with a **Lead Loss Diagnostic**.
+Ready to find where your pipeline is leaking? Start with a **Lead Loss Snapshot**.
 
 [brealle.com](https://brealle.com) · [brandon@brealle.com](mailto:brandon@brealle.com)
 

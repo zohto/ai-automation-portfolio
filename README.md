@@ -1,13 +1,13 @@
 # Brandon Robinson — AI Systems & Automation
 
-**Founder, [BREALLE](https://brealle.com) · Lead Loss Diagnostic & Intake Automation**
+**Founder, [BREALLE](https://brealle.com) · Lead Loss Snapshot & Intake Automation**
 
 I have 15 years of operations experience and build automation systems for the places where revenue quietly leaks: broken intake, slow follow-up, poor routing, and no tracking visibility.
 
 BREALLE helps local service businesses and applicant-heavy operations capture leads, route them correctly, follow up automatically, and see what is happening across the pipeline.
 
 → **[brealle.com](https://brealle.com)**  
-Lead Loss Diagnostic · Integration Sprint · Maintenance Retainer
+Lead Loss Snapshot · Lead Recovery Setup · Managed Lead Recovery
 
 ---
 
