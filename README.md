@@ -20,6 +20,8 @@ End-to-end applicant intake automation built for a live client. Handles inbound 
 
 **Stack:** n8n · Google Sheets · Gmail · Webhook triggers · Postgres · Caddy · Hetzner VPS
 
+[→ Read case study](case-studies/applicant-intake-automation-case-study.md)
+
 ---
 
 ### BREALLE Lead Generator — Outbound Lead Sourcing & Enrichment Pipeline
