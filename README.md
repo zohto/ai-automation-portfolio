@@ -1,22 +1,22 @@
 # Brandon Robinson — AI Systems & Automation
 
-**Founder, [BREALLE](https://brealle.com) · Reliable Support Systems & Intake Automation**
+**Founder, [BREALLE](https://brealle.com) · Reliable Support Systems for Trades & Home Services**
 
-I have 17 years of operations experience and build automation systems for the places where revenue quietly leaks: broken intake, slow follow-up, poor routing, and no tracking visibility.
+I have 17 years of operations experience and build automation systems for the places where time quietly disappears: chasing late payments, following up on quotes, and the weekly admin that turns into a weeknight problem.
 
-BREALLE helps local service businesses and applicant-heavy operations capture leads, route them correctly, follow up automatically, and see what is happening across the pipeline.
+BREALLE builds reliable support systems for trades and home-service owners — plumbers, HVAC, electricians, restoration — so the repetitive work runs on schedule instead of depending on the owner being available.
 
 → **[brealle.com](https://brealle.com)**  
-The Time Audit (free 20-min call) → diagnose-then-build → ongoing support
+The Time Audit — a free 20-minute call to find where the week actually goes. No pitch.
 
 ---
 
 ## Production Systems
 
-### Applicant Pipeline — Live Applicant Intake & Tracking System
-*Status: Production · Running 24/7*
+### Applicant Pipeline — Applicant Intake & Tracking System
+*Status: Delivered to a client and run in production. Engagement no longer active.*
 
-End-to-end applicant intake automation built for a live client. Handles inbound applicant data, deduplication and normalization, deterministic keyword-based reply classification, structured pipeline tracking, reply routing, and failure alerting. Built and operated under a formal Tier 3 workflow standard (external communications, low reversibility, WGS governance applied).
+End-to-end applicant intake automation built for a client engagement. Handles inbound applicant data, deduplication and normalization, deterministic keyword-based reply classification, structured pipeline tracking, reply routing, and failure alerting. Built and operated under a formal Tier 3 workflow standard (external communications, low reversibility, WGS governance applied).
 
 **Stack:** n8n · Google Sheets · Gmail · Webhook triggers · Postgres · Caddy · Hetzner VPS
 
@@ -27,9 +27,9 @@ End-to-end applicant intake automation built for a live client. Handles inbound 
 ### BREALLE Lead Generator — Outbound Lead Sourcing & Enrichment Pipeline
 *Status: Production · Validated & Operational · Tier 2 Governance*
 
-Outbound sourcing pipeline targeting email-native local service businesses across property management, cleaning, water/fire/mold restoration, HVAC, and light-industrial staffing in MA/CT/RI. Apollo-driven discovery and enrichment with Hunter.io fallback for contact-form-heavy verticals; NeverBounce verification before any lead reaches the outreach pool. Schema-locked Google Sheets handoff with credit-budget management against a 2,500-credit monthly Apollo allowance. Feeds the BREALLE outreach engine, where every draft is reviewed and approved by the founder before send.
+Outbound sourcing pipeline targeting email-native trades and home-service businesses across a New England primary geography. Mixed discovery and enrichment layer chosen on measured yield rather than vendor preference; NeverBounce verification before any lead reaches the outreach pool. Schema-locked Google Sheets handoff with credit-budget management against a metered monthly discovery allowance. Feeds the BREALLE outreach engine, where every draft is reviewed and approved by the founder before send.
 
-**Stack:** n8n · Apollo · Hunter.io · NeverBounce · Google Sheets · Postgres · Caddy · Tier 2 governance
+**Stack:** n8n · Apify · Apollo · NeverBounce · Google Sheets · Postgres · Caddy · Tier 2 governance
 
 [→ Read case study](case-studies/brealle-lead-generator.md)
 
@@ -92,7 +92,7 @@ End-to-end automation system delivered for a regional home-appliance distributor
 ---
 
 ### Outbound Lead Sourcing & Enrichment at Production Scale — BREALLE Lead Generator
-Five-workflow n8n sourcing pipeline (Apollo discovery + Apollo enrichment + Hunter.io fallback + NeverBounce verification + shared event/error logging) totaling 87 nodes. Cost-aware design managed against a 2,500-credit monthly Apollo allowance, with pre-outreach deliverability verification and a schema-locked Google Sheets handoff to the outreach engine. Tier 2 governance with founder-approval gate on every outbound draft.
+Five-workflow n8n sourcing pipeline (discovery + enrichment + NeverBounce verification + shared event/error logging) totaling 87 nodes, verified against the running instance 2026-08-04. Cost-aware design managed against a metered monthly discovery allowance, with pre-outreach deliverability verification and a schema-locked Google Sheets handoff to the outreach engine. Tier 2 governance with founder-approval gate on every outbound draft.
 
 [→ Read case study](case-studies/brealle-lead-generator.md)
 

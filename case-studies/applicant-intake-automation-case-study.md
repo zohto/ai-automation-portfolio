@@ -30,8 +30,8 @@ The business was losing candidates between intake and first contact — a gap th
 
 **Regional Distributor Applicant Pipeline v5 PROD** — a three-chain automation that runs continuously on a hardened production VPS, processing incoming applicant records from raw intake through outreach, reply tracking, and pipeline state management.
 
-**Status:** Live · Production · Tier 3 governance applied
-**Scale:** 82 nodes across three independent scheduled chains plus a built-in error subworkflow
+**Status:** Delivered and run in production under Tier 3 governance. The engagement is no longer active.
+**Scale:** Three independent scheduled chains plus a built-in error subworkflow
 
 ---
 
@@ -124,13 +124,9 @@ Tier 3 controls applied:
 
 ## **About BREALLE**
 
-BREALLE designs and operates production automation systems for businesses where revenue depends on inbound capture, intake, follow-up, and tracking.
+BREALLE builds reliable support systems for trades and home-service owners — plumbers, HVAC, electricians, restoration — taking the repetitive, time-draining work off the owner's plate so the business stops depending on them being available.
 
-- **Lead Loss Snapshot** — identifies where opportunities are leaking
-- **Lead Recovery Setup** — builds the system that closes the gap
-- **Managed Lead Recovery** — keeps it running
-
-Ready to find where your pipeline is leaking? Start with a **Lead Loss Snapshot**.
+Start with **The Time Audit** — a free 20-minute call to find where the week actually goes. No pitch.
 
 [brealle.com](https://brealle.com) · [brandon@brealle.com](mailto:brandon@brealle.com)
 
