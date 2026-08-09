@@ -25,9 +25,9 @@ End-to-end applicant intake automation built for a client engagement. Handles in
 ---
 
 ### BREALLE Lead Generator — Outbound Lead Sourcing & Enrichment Pipeline
-*Status: Production · Validated & Operational · Tier 2 Governance*
+*Status: Built and run in production under Tier 2 governance; the outbound programme it fed was concluded in August 2026.*
 
-Outbound sourcing pipeline targeting email-native trades and home-service businesses across a New England primary geography. Mixed discovery and enrichment layer chosen on measured yield rather than vendor preference; NeverBounce verification before any lead reaches the outreach pool. Schema-locked Google Sheets handoff with credit-budget management against a metered monthly discovery allowance. Feeds the BREALLE outreach engine, where every draft is reviewed and approved by the founder before send.
+Outbound sourcing pipeline targeting email-native trades and home-service businesses across a New England primary geography. Mixed discovery and enrichment layer chosen on measured yield rather than vendor preference; NeverBounce verification before any lead reached the outreach pool. Schema-locked Google Sheets handoff with credit-budget management against a metered monthly discovery allowance. Fed the BREALLE outreach engine.
 
 **Stack:** n8n · Apify · Apollo · NeverBounce · Google Sheets · Postgres · Caddy · Tier 2 governance
 
@@ -92,7 +92,7 @@ End-to-end automation system delivered for a regional home-appliance distributor
 ---
 
 ### Outbound Lead Sourcing & Enrichment at Production Scale — BREALLE Lead Generator
-Five-workflow n8n sourcing pipeline (discovery + enrichment + NeverBounce verification + shared event/error logging) totaling 87 nodes, verified against the running instance 2026-08-04. Cost-aware design managed against a metered monthly discovery allowance, with pre-outreach deliverability verification and a schema-locked Google Sheets handoff to the outreach engine. Tier 2 governance with founder-approval gate on every outbound draft.
+Five-workflow n8n sourcing pipeline (discovery + enrichment + NeverBounce verification + shared event/error logging) totaling 87 nodes, verified against the running instance 2026-08-04. Cost-aware design managed against a metered monthly discovery allowance, with pre-outreach deliverability verification and a schema-locked Google Sheets handoff to the outreach engine. Tier 2 governance; the outbound programme it fed was concluded in August 2026.
 
 [→ Read case study](case-studies/brealle-lead-generator.md)
 

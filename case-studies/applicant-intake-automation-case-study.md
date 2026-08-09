@@ -28,7 +28,7 @@ The business was losing candidates between intake and first contact — a gap th
 
 ## **The System BREALLE Built**
 
-**Regional Distributor Applicant Pipeline v5 PROD** — a three-chain automation that runs continuously on a hardened production VPS, processing incoming applicant records from raw intake through outreach, reply tracking, and pipeline state management.
+**Regional Distributor Applicant Pipeline v5 PROD** — a three-chain automation that ran continuously on a hardened production VPS, processing incoming applicant records from raw intake through outreach, reply tracking, and pipeline state management.
 
 **Status:** Delivered and run in production under Tier 3 governance. The engagement is no longer active.
 **Scale:** Three independent scheduled chains plus a built-in error subworkflow
@@ -66,7 +66,7 @@ These are the controls that distinguish a production system from a demo:
 
 ## **Governance**
 
-The system is governed under BREALLE's Workflow Governance Standard (WGS) v1 at **Tier 3** — BREALLE's highest-risk workflow category, used for external communications with low reversibility.
+The system was governed under BREALLE's Workflow Governance Standard (WGS) v1 at **Tier 3** — BREALLE's highest-risk workflow category, used for external communications with low reversibility.
 
 Tier 3 controls applied:
 - Field Preservation Gate (required)

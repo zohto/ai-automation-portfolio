@@ -10,11 +10,11 @@
 
 ## **The Situation**
 
-BREALLE operates on outbound — finding small businesses that are losing revenue through broken intake, and reaching them with a credible offer.
+BREALLE ran on outbound — finding small businesses that were losing revenue through broken intake, and reaching them with a credible offer.
 
-For that motion to work, the sourcing pipeline behind it has to do three things continuously, under cost control:
+For that motion to work, the sourcing pipeline behind it had to do three things continuously, under cost control:
 
-- Discover candidate firms inside a configured vertical — currently trades and home services (plumbing, HVAC, electrical, restoration) across a New England primary geography
+- Discover candidate firms inside a configured vertical — trades and home services (plumbing, HVAC, electrical, restoration) across a New England primary geography
 - Resolve a verified, deliverable contact email for each firm — without burning enrichment credits on dead records
 - Hand the result to the outreach engine in a structured, governed shape so nothing leaks between sourcing and the next stage
 
@@ -36,13 +36,13 @@ The pipeline needed to be **cost-aware, deliverability-aware, and audit-traceabl
 
 ## **The System BREALLE Built**
 
-**BREALLE Lead Generator** — an n8n-orchestrated sourcing and enrichment pipeline that runs on the BREALLE production n8n instance and feeds verified, deduplicated leads into the outreach engine.
+**BREALLE Lead Generator** — an n8n-orchestrated sourcing and enrichment pipeline that ran on the BREALLE production n8n instance and fed verified, deduplicated leads into the outreach engine.
 
-**Status:** Live · Production · Validated & Operational
+**Status:** Built and run in production; the outbound programme it fed was concluded in August 2026
 **Tier:** Tier 2 governance (operational/revenue-support, BREALLE WGS v1)
 **Scale:** Five coordinated workflows totaling 87 nodes, verified against the running instance 2026-08-04
 
-The function — outbound lead sourcing and enrichment — runs continuously today. The discovery layer has been rebuilt more than once as the economics were measured: Apify-based scraping first, then Apollo-based discovery and enrichment, and today a mixed layer that uses whichever source actually yields deliverable addresses. The five workflows described below are the stable core; the wider sourcing family currently runs eight active workflows totalling 163 nodes.
+The function — outbound lead sourcing and enrichment — ran continuously in production. The discovery layer was rebuilt more than once as the economics were measured: Apify-based scraping first, then Apollo-based discovery and enrichment, and finally a mixed layer using whichever source actually yielded deliverable addresses. The five workflows described below were the stable core of a wider sourcing family that grew to eight workflows totalling 163 nodes.
 
 ---
 
@@ -77,9 +77,9 @@ Verified, deduplicated leads land in a schema-locked Google Sheets pipeline with
 
 ## **Human-in-the-Loop Gate**
 
-Sourcing is automated. **Outreach is not.**
+Sourcing was automated. **Outreach was gated.**
 
-The pipeline feeds verified leads to the BREALLE outreach engine, where every outbound draft is reviewed and approved by the founder before send. No outreach message goes out without explicit founder ratification. This is a deliberate Tier-3-grade control on the engine side: the sourcing pipeline can move fast because the gate at outreach is deliberately slow.
+The pipeline fed verified leads to the BREALLE outreach engine. For most of the programme's life, every outbound draft was reviewed and approved by the founder before send; a validator-based auto-approve path was later introduced for template-validated drafts, operating behind the engine's own controls — kill switch, enforced send window, per-run caps, and a permanent suppression-ledger check before any send. The outbound programme was concluded in August 2026.
 
 ---
 
@@ -121,13 +121,13 @@ Tier 2 controls applied:
 - ✗ Untracked dedup with double-touch risk
 - ✗ No structured handoff to the outbound stage
 
-## **What's Now Possible**
+## **What It Delivered**
 
 - ✓ Continuous, cost-aware sourcing across multiple verticals
 - ✓ Pre-outreach deliverability verification — sender reputation protected
 - ✓ Schema-locked handoff to the outreach engine with no field drift
 - ✓ Full audit trail from discovery through verification
-- ✓ Founder-gated outreach with sourcing throughput decoupled from approval pace
+- ✓ Gated outreach with sourcing throughput decoupled from approval pace
 
 ---
 
@@ -145,7 +145,7 @@ Tier 2 controls applied:
 
 > Most small operators trying to run cold outbound burn their sourcing budget in two weeks, their domain reputation in three, and their attention span by the time the first reply arrives.
 >
-> BREALLE Lead Generator is the layer that prevents all three — cost-aware sourcing, pre-send deliverability verification, and a schema-locked handoff to the outreach engine where the founder still approves every send.
+> BREALLE Lead Generator was the layer that prevented all three — cost-aware sourcing, pre-send deliverability verification, and a schema-locked handoff to a governed outreach engine.
 
 ---
 

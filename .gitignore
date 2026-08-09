@@ -4,3 +4,6 @@ Thumbs.db
 
 # Resume editing artifacts — the Word source is tracked; superseded PDFs are not
 resume/*-old.pdf
+
+# Working drafts and decision notes — never published
+resume/drafts/
