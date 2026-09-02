@@ -2,8 +2,13 @@ desktop.ini
 Thumbs.db
 .DS_Store
 
-# Resume editing artifacts — the Word source is tracked; superseded PDFs are not
-resume/*-old.pdf
-
-# Working drafts and decision notes — never published
-resume/drafts/
+# Resume tree — PRIVATE BY DEFAULT.
+# Reorganised 2026-09-02: the old `resume/drafts/` folder is gone and active
+# documents now sit directly under resume/, so a path-specific ignore is no
+# longer safe. Everything under resume/ is ignored; only the README map is
+# tracked. The tree holds phone number, full employment history, salary bands,
+# gap analyses and Brandon's rulings (see mirror-resume-tree.ps1 § PRIVACY,
+# and CB-649: this same material once sat one command from publication).
+# To publish a resume deliberately, add it with an explicit `git add -f`.
+resume/*
+!resume/README.md
